@@ -947,7 +947,7 @@ select {
 
 .header-info .info-icon i {
   font-size: 25px;
-  color: #005de0;
+  color: #006199;
 }
 
 .header-info .info-text {
@@ -980,16 +980,16 @@ select {
   width: 40px;
   height: 40px;
   line-height: 38px;
-  font-size: 16px;
+  font-size: 25px;
   border-radius: 50%;
   text-align: center;
-  color: #333333;
-  border: 1px solid #ddd;
+  color: #006199;
+  /*border: 1px solid #ddd;*/
   transition: all 0.3s linear;
 }
 
 .header-search .search-btn:hover {
-  color: #005de0;
+  /*color: #0fa04a;*/
 }
 
 .search-wrap {
