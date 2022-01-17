@@ -1909,10 +1909,11 @@ select {
 /*  03 - Hero CSS
 /*----------------------------------------*/
 .tech-hero-section {
-  height: 1120px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  opacity: 0.8;
   position: relative;
   z-index: 1;
 }
@@ -1930,7 +1931,7 @@ select {
 }
 
 .tech-hero-section .hero-content {
-  padding-top: 290px;
+  padding-top: 230px;
   max-width: 520px;
 }
 
