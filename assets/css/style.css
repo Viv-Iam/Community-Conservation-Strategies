@@ -5375,7 +5375,9 @@ select {
   position: absolute;
   left: 0;
   top: 0;
-  background: #f2f2f2 url(../images/bg/skill-bg.jpg);
+  background: #f2f2f2 url(../images/bg-3.jpg);
+  opacity: 0.4;
+  /*background-color: #f2f2f2;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
