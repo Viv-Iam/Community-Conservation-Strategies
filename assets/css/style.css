@@ -1921,8 +1921,9 @@ select {
 .tech-hero-section .shape-1 {
   width: 617px;
   height: 617px;
-  background: linear-gradient(150deg, #006199 0%, #009994 100%);
-  opacity: 0.2;
+  /*background: linear-gradient(150deg, #006199 0%, #009994 100%);*/
+  background-color: #64ac74;
+  opacity: 0.3;
   border-radius: 50%;
   position: absolute;
   top: 270px;
