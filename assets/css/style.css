@@ -1909,9 +1909,12 @@ select {
 /*  03 - Hero CSS
 /*----------------------------------------*/
 .tech-hero-section {
-  height: 1100px;
+  height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center top;
   /*opacity: 0.7;*/
   position: relative;
@@ -1919,16 +1922,16 @@ select {
 }
 
 .tech-hero-section .shape-1 {
-  width: 617px;
+  /*width: 617px;
   height: 617px;
-  /*background: linear-gradient(150deg, #006199 0%, #009994 100%);*/
+  background: linear-gradient(150deg, #006199 0%, #009994 100%);
   background-color: #006199;
   opacity: 0.3;
   border-radius: 50%;
   position: absolute;
   top: 270px;
   left: 50px;
-  z-index: -1;
+  z-index: -1;*/
 }
 
 .tech-hero-section .hero-content {
@@ -3577,11 +3580,9 @@ select {
   overflow: hidden;
 }
 
-.vid-border{
+video {
   position: relative;
-  height: 482px;
-  width: 700px;
-  overflow: hidden;
+  overflow: absolute;
   border-radius: 3%;
   border: 1px solid #ffffff;
   box-shadow: 10px 10px 5px #aaaaaa;
